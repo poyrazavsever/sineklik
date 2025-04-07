@@ -20,6 +20,24 @@ const services = [
     description: 'Gelişmiş cam balkon sistemleriyle mekanlarınıza şıklık katıyoruz.',
     imageUrl: '/Images/image1.png',
   },
+  {
+    id: 4,
+    title: 'Dekorasyon Hizmetleri',
+    description: 'Evinizi veya işyerinizi profesyonelce dekore ediyoruz.',
+    imageUrl: '/Images/image1.png',
+  },
+  {
+    id: 5,
+    title: 'Ayna Hizmetleri',
+    description: 'Çeşitli boyutlarda ve modellerde ayna hizmeti sunuyoruz.',
+    imageUrl: '/Images/image1.png',
+  },
+  {
+    id: 6,
+    title: 'Cam Balkon Sistemleri',
+    description: 'Gelişmiş cam balkon sistemleriyle mekanlarınıza şıklık katıyoruz.',
+    imageUrl: '/Images/image1.png',
+  },
 ]
 
 const Services = () => {
@@ -34,7 +52,7 @@ const Services = () => {
       </div>
 
       {/* Kartlar */}
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="container mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service) => (
           <motion.div
             key={service.id}
