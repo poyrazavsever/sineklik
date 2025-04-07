@@ -33,7 +33,7 @@ const HeroSection = () => {
   }
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div id='home' className="relative h-screen overflow-hidden">
       {/* Background Image Slider */}
       <div className="absolute inset-0 transition-all duration-1000">
         {images.map((img, index) => (
