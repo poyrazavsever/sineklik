@@ -23,10 +23,6 @@ const Navbar = () => {
             <a href="#about" className={linkStyle}>Hakkımızda</a>
           </li>
 
-          <li>
-            <a href="#contact" className={linkStyle}>İletişim</a>
-          </li>
-
         </ul>
 
       </div>
