@@ -22,7 +22,7 @@ const About = () => {
         {/* Sol Kısım: Görsel */}
         <div className="flex-1">
           <img
-            src="/Images/image1.png" // Görselin yolu
+            src="/Images/image2.png" // Görselin yolu
             alt="About Us"
             className="w-full h-full object-cover rounded-lg shadow-lg"
           />
@@ -32,13 +32,7 @@ const About = () => {
         <div className="flex-1 text-center md:text-left">
           <h2 className="text-4xl font-bold text-bg mb-4">Hakkımızda</h2>
           <p className="text-lg text-neutral-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Nulla facilisi. Donec
-            ultrices justo non eros gravida, vel bibendum risus eleifend. Donec suscipit, ante eu maximus interdum, nisi erat
-            tempus sapien, in tincidunt elit lectus eu mauris. Mauris pretium justo at nisi egestas, vitae interdum urna
-            dictum. Integer eu turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Nulla facilisi. Donec
-            ultrices justo non eros gravida, vel bibendum risus eleifend. Donec suscipit, ante eu maximus interdum, nisi erat
-            tempus sapien, in tincidunt elit lectus eu mauris. Mauris pretium justo at nisi egestas, vitae interdum urna
-            dictum. Integer eu turpis ipsum.
+          Aksineklik, yaşam alanlarınızı daha konforlu, estetik ve fonksiyonel hale getirmek için yüksek kaliteli çözümler sunan bir yapı firmasıdır. Sineklikten cam balkona, Pimapen’den ayna ve duşakabin sistemlerine kadar geniş bir ürün ve hizmet yelpazesiyle müşterilerimizin ihtiyaçlarına özel çözümler üretiyoruz. Uzun yıllara dayanan tecrübemiz ve uzman kadromuzla, her projeye titizlikle yaklaşarak en iyi hizmeti vermeyi hedefliyoruz. Müşteri memnuniyetini her zaman ön planda tutarak, yenilikçi tasarımlarımız ve dayanıklı ürünlerimizle yaşam alanlarınıza değer katıyoruz. Kaliteli malzeme kullanımı ve profesyonel montaj ekibimiz sayesinde, estetik ve fonksiyonelliği bir araya getiriyoruz. Aksineklik olarak, her zaman modern çözümlerle daha iyi bir yaşam sunmak için çalışıyoruz.
           </p>
         </div>
       </div>
