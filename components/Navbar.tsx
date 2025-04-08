@@ -6,8 +6,8 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 text-bg bg-primary">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">Logo</div>
+      <div className="max-w-7xl mx-auto px-4 py-8 flex justify-between items-center">
+        <img src="Logo/LogoUzun.png" alt="LogoUzun" className='w-32'/>
 
         <ul className="flex space-x-6 text-bg font-medium">
 
